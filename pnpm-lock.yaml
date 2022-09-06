@@ -18,7 +18,7 @@ importers:
       autoprefixer: ^10.4.8
       daisyui: ^2.24.0
       nanoid: ^4.0.0
-      open-rating-elements: workspace:^0.0.1
+      open-rating-element: workspace:^0.0.1
       postcss: ^8.4.16
       react: ^18.2.0
       react-colorful: ^5.6.1
@@ -30,7 +30,7 @@ importers:
     dependencies:
       '@lit-labs/react': 1.0.8
       nanoid: 4.0.0
-      open-rating-elements: link:../../packages/open-rating
+      open-rating-element: link:../../packages/open-rating
       react: 18.2.0
       react-colorful: 5.6.1_biqbaboplfbrettd7655fr4n2y
       react-dom: 18.2.0_react@18.2.0

@@ -4,8 +4,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.ts",
-      name: "MyLibrary",
-      fileName: (format) => `open-rating.${format}.js`,
+      name: "OpenRating",
+      fileName: (format) => `open-rating-element.${format}.js`,
     },
   },
 });

@@ -6,6 +6,6 @@ import { OpenRatingElement } from "open-rating-element";
 export const OpenRating = createComponent(
   // @ts-ignore
   React,
-  "open-rating-element",
+  "open-rating",
   OpenRatingElement
 );

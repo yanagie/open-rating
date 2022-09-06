@@ -1,1 +1,1 @@
-export * from "./open-rating";
+export * from "./star";

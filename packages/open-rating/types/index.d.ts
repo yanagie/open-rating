@@ -1,2 +1,2 @@
-export * from "./open-rating";
+export * from "./star";
 //# sourceMappingURL=index.d.ts.map

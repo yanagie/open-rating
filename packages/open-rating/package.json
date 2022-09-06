@@ -1,0 +1,26 @@
+{
+  "name": "open-rating-elements",
+  "private": false,
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "lit": "^2.2.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "types": "types/index.d.ts",
+  "main": "dist/open-rating.es.js",
+  "module": "dist/open-rating.es.js",
+  "unpkg": "dist/open-rating.umd.js",
+  "files": [
+    "dist",
+    "types"
+  ]
+}

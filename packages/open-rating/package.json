@@ -15,12 +15,11 @@
     "typescript": "^4.6.4",
     "vite": "^3.0.7"
   },
-  "types": "types/index.d.ts",
-  "main": "dist/open-rating-element.es.js",
-  "module": "dist/open-rating-element.es.js",
-  "unpkg": "dist/open-rating-element.umd.js",
+  "types": "out/types/index.d.ts",
+  "main": "out/dist/open-rating-element.es.js",
+  "module": "out/dist/open-rating-element.es.js",
+  "unpkg": "out/dist/open-rating-element.umd.js",
   "files": [
-    "dist",
-    "types"
+    "out"
   ]
 }

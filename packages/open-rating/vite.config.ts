@@ -7,5 +7,6 @@ export default defineConfig({
       name: "OpenRating",
       fileName: (format) => `open-rating-element.${format}.js`,
     },
+    outDir: "out/dist",
   },
 });

@@ -7,7 +7,7 @@ import {
   RatingComponentOption,
   RatingComponentSwitcher,
 } from "./components/Rating";
-import { OpenRating } from "./components/OpenRating";
+import { OpenRating } from "./components/ORStar";
 
 function App() {
   const [color, setColor] = useState("#aabbcc");
@@ -19,7 +19,7 @@ function App() {
   <script src="https://unpkg.com/web-rating@0.0.1/dist/web-rating.umd.js"></script>
   `;
   const wcRenderer = (props: { color?: string }) =>
-    `<web-rating color=${props?.color}></web-rating>`;
+    `<or-star active_color=${props?.color}></or-star>`;
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -42,7 +42,7 @@ function App() {
       <Section title="4. カスタマイズ（オプション）">
         <HexColorPicker color={color} onChange={setColor} />
       </Section>
-      <OpenRating color={color} />
+      <OpenRating active_color={color} />
       <div className="textarea textarea-bordered  w-full bg-base-100 border-">
         <div className="card-body">
           <h2 className="card-title">ステップ1. headタグの中に挿入する</h2>

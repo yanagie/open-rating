@@ -2,7 +2,7 @@
   "name": "open-rating-element",
   "private": false,
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,9 +16,9 @@
     "vite": "^3.0.7"
   },
   "types": "out/types/index.d.ts",
-  "main": "out/dist/open-rating-element.es.js",
-  "module": "out/dist/open-rating-element.es.js",
-  "unpkg": "out/dist/open-rating-element.umd.js",
+  "main": "out/dist/index.es.js",
+  "module": "out/dist/index.es.js",
+  "unpkg": "out/dist/index.umd.js",
   "files": [
     "out"
   ]

@@ -16,7 +16,7 @@ function App() {
     { title: "モーダル", hint: "" },
   ];
   const scriptToHead = `
-  <script src="https://unpkg.com/web-rating@0.0.1/dist/web-rating.umd.js"></script>
+  <script src="https://unpkg.com/open-rating-element@0.0.1/out/dist/index.umd.js"></script>
   `;
   const wcRenderer = (props: { color?: string }) =>
     `<or-star active_color=${props?.color}></or-star>`;

@@ -5,7 +5,7 @@ export default defineConfig({
     lib: {
       entry: "./src/index.ts",
       name: "OpenRating",
-      fileName: (format) => `open-rating-element.${format}.js`,
+      fileName: (format) => `index.${format}.js`,
     },
     outDir: "out/dist",
   },

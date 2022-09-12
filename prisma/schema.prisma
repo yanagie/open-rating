@@ -9,3 +9,29 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model User {
+  id       String    @id @default(cuid())
+  name     String?
+  projects Project[]
+}
+
+model Project {
+  id      String      @id @default(cuid())
+  type    RatingType
+  content WrapperType
+  text    String
+  url     String?
+  user    User        @relation(fields: [userId], references: [id])
+  userId  String
+}
+
+enum RatingType {
+  star
+  heart
+}
+
+enum WrapperType {
+  MODAL
+  EMBEDDING
+}

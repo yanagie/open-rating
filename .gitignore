@@ -12,6 +12,10 @@ node_modules
 .next/
 /out/
 
+# Supabase
+.branches
+.temp
+
 # Cache
 .turbo/
 .pnpm-store
